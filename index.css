@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.nav-item {
+  padding: 0px 20px !important;
+}
+.hero {
+  border: 1px solid;
+  height: 90vh;
+}
+.hero > div:nth-child(1) {
+  border: 1px solid;
+  height: 100%;
+  flex: 1;
+}
+.hero > div:nth-child(2) {
+  border: 1px solid;
+  height: 100%;
+  flex: 1;
+}
+::selection {
+  background-color: #212529;
+  color: #198754;
+}
+.m-auto {
+  overflow: hidden;
+  padding: 5px;
+}
+.card-img-top:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+.dropdown-item:hover {
+  background-color: transparent !important;
+  color: #fff !important;
+}
