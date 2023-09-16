@@ -1,0 +1,13 @@
+.nav-item {
+  padding: 0px 20px !important;
+}
+
+::selection {
+  background-color: #212529;
+  color: #198754;
+}
+
+.dropdown-item:hover {
+  background-color: transparent !important;
+  color: #fff !important;
+}

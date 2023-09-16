@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Linked CS -->
+    <link rel="stylesheet" href="./index.css" />
+
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <!-- Bootstrap -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous" />
+    <title>Tech Hire</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <main>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark p-2 border-bottom border-white">
+        <div class="container-fluid p-2">
+          <a class="navbar-brand" href="./index.html">Tech Hire</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-auton mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#services">Services</a>
+              </li>
+              <li class="nav-item dropdown" id="candidate"></li>
+              <li class="nav-item">
+                <a class="nav-link active">About us</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto me-auton mb-lg-0" id="btnGrp"></ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section class="bg-dark text-white">
+        <div class="container-fluid">
+          <div class="row" style="min-height: 90vh">
+            <div
+              class="col-md-6 px-5 d-flex justify-content-center align-items-center">
+              <div>
+                <span class="text-success" style="font-size: 70px"
+                  >Welcome To Tech Hire
+                </span>
+                <span class="d-block lh-lg">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+                  fugiat earum sed amet ab hic aut maiores quisquam laudantium
+                  error voluptatum, aliquam vero obcaecati mollitia ipsum nemo
+                  at voluptas laborum accusamus ratione? Dolor quas eveniet
+                  dolorem accusamus autem doloribus cupiditate eius, officiis
+                  nemo deserunt non quia culpa quos corrupti eligendi!
+                </span>
+              </div>
+            </div>
+            <div
+              class="col-md-6 d-flex justify-content-center align-items-center">
+              <div class="py-5">
+                <img width="100%" src="./img.png" alt="image" height="450px" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Service Section -->
+      <section class="bg-dark p-5 text-white" id="services">
+        <h1 class="text-center">Services</h1>
+        <div class="container text-center">
+          <div class="row my-5">
+            <div class="d-flex col-lg-4 justify-content-center">
+              <div class="bg-dark text-white" style="width: 18rem">
+                <div style="width: 200px" class="m-auto">
+                  <img
+                    src="https://img.icons8.com/?size=512&id=brLk9sCOz7jG&format=png"
+                    class="card-img-top"
+                    alt="image" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Websites</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugiat recusandae nobis voluptas, dignissimos blanditiis
+                    commodi!
+                  </p>
+                  <a href="#" class="btn btn-outline-success">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex col-lg-4 justify-content-center">
+              <div class="bg-dark text-white" style="width: 18rem">
+                <div style="width: 200px" class="m-auto">
+                  <img
+                    src="https://img.icons8.com/?size=512&id=VfiS535MYlfx&format=png"
+                    class="card-img-top"
+                    alt="image" />
+                </div>
+                <div class="card-body my-2">
+                  <h5 class="card-title">E-Commerce</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cumque praesentium odio itaque laborum quaerat! Aliquid.
+                  </p>
+                  <a href="#" class="btn btn-outline-success">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="d-flex col-lg-4 justify-content-center"
+              style="min-height: 100px">
+              <div class="bg-dark text-white" style="width: 18rem">
+                <div style="width: 200px" class="m-auto">
+                  <img
+                    src="https://img.icons8.com/?size=512&id=JAqRx89i0SAk&format=png"
+                    class="card-img-top"
+                    alt="image" />
+                </div>
+                <div class="card-body my-2">
+                  <h5 class="card-title">Web-portal</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. A
+                    impedit pariatur, molestiae illo doloribus aut.
+                  </p>
+                  <a href="#" class="btn btn-outline-success">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row my-5">
+            <div class="d-flex col-lg-4 justify-content-center">
+              <div class="bg-dark text-white" style="width: 18rem">
+                <div style="width: 200px" class="m-auto">
+                  <img
+                    width="100%"
+                    src="https://img.icons8.com/?size=512&id=6EJPdj2gIJ8H&format=png"
+                    class="card-img-top"
+                    alt="image" />
+                </div>
+                <div class="card-body my-2">
+                  <h5 class="card-title">Web Apps</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugiat recusandae nobis voluptas, dignissimos blanditiis
+                    commodi!
+                  </p>
+                  <a href="#" class="btn btn-outline-success">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex col-lg-4 justify-content-center">
+              <div class="bg-dark text-white" style="width: 18rem">
+                <div style="width: 200px" class="m-auto">
+                  <img
+                    src="https://img.icons8.com/?size=512&id=ElVCPhoDXRno&format=png"
+                    class="card-img-top"
+                    alt="image" />
+                </div>
+                <div class="card-body my-2">
+                  <h5 class="card-title">Mobile Apps</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugiat recusandae nobis voluptas, dignissimos blanditiis
+                    commodi!
+                  </p>
+                  <a href="#" class="btn btn-outline-success">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex col-lg-4 justify-content-center">
+              <div class="bg-dark text-white" style="width: 18rem">
+                <div style="width: 200px" class="m-auto">
+                  <img
+                    src="https://img.icons8.com/?size=512&id=H7ay2UmdxOBf&format=png"
+                    class="card-img-top"
+                    alt="image" />
+                </div>
+                <div class="card-body my-2">
+                  <h5 class="card-title">Content Management</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugiat recusandae nobis voluptas, dignissimos blanditiis
+                    commodi!
+                  </p>
+                  <a href="#" class="btn btn-outline-success">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Key Features -->
+
+      <div class="container-fluid bg-dark text-white pb-5">
+        <div class="row container m-auto">
+          <div>
+            <h1 class="text-center pb-5">Key Features</h1>
+          </div>
+          <div class="card col-md-4 text-center">
+            <div class="p-4">
+              <h2 class="text-success">Wide Candidate Reach</h2>
+              <p class="">
+                One of the key features of online recruitment is its ability to
+                reach a vast pool of candidates. Online platforms provide access
+                to a global talent pool, allowing employers to attract and
+                engage candidates from various geographical locations and
+                backgrounds. This feature significantly expands the reach of job
+                postings and increases the chances of finding the right fit for
+                the position.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="p-4">
+              <h3>Applicant Tracking System (ATS)</h3>
+              <p class="">
+                An applicant tracking system is a vital component of online
+                recruitment solutions. It helps streamline the hiring process by
+                automating tasks such as job posting, resume screening,
+                candidate communication, and interview scheduling. The ATS
+                enables efficient management of candidate data, tracks their
+                progress through various recruitment stages, and ensures a more
+                organized and structured hiring process.
+              </p>
+            </div>
+          </div>
+          <div class="card col-md-4 text-center">
+            <div class="p-4">
+              <h3 class="text-success">Customized Screening and Filtering</h3>
+              <p class="">
+                Online recruitment solutions often offer tools for customized
+                candidate screening and filtering. This feature allows employers
+                to set specific criteria and requirements for job applications,
+                enabling automated filtering of applications based on predefined
+                parameters. By eliminating unqualified candidates at an early
+                stage, recruiters can focus their attention on the most suitable
+                applicants, saving time and effort in the recruitment process.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer
+        class="text-center text-lg-start text-white bg-dark border-top" style="padding-top: 20px;">
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start">
+            <!-- Grid row -->
+            <div class="row pt-5">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold">Tech Hire</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px" />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perspiciatis, obcaecati! Nesciunt odit explicabo libero veniam
+                  quidem deleniti, inventore ex tenetur!
+                </p>
+              </div>
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Useful links</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px" />
+                <p>
+                  <a href="#!" class="text-white">Become Our Agnent</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Privacy Policy</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Terms Of Use</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-white">Help</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold">Contact</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px" />
+                <p>
+                  <i class="fas fa-home mr-3"></i> Rohilla, Delhi 202001, IN
+                </p>
+                <p><i class="fas fa-envelope mr-3"></i> abc@example.com</p>
+                <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+
+                <!-- Facebook -->
+                <a
+                  class="btn btn-success bg-dark text-success btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+
+                <!-- Twitter -->
+                <a
+                  class="btn btn-success bg-dark text-success btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+
+                <!-- Google -->
+                <a
+                  class="btn btn-success btn-floating m-1 bg-dark text-success"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-google"></i
+                ></a>
+
+                <!-- Instagram -->
+                <a
+                  class="btn btn-success bg-dark text-success btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+
+                <!-- Linkedin -->
+                <a
+                  class="btn btn-success bg-dark text-success btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <!-- Github -->
+                <a
+                  class="btn btn-success bg-dark text-success btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)">
+          © 2023 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">xyz.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+
+      <!-- End of .container -->
+    </main>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
+</html>
